@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A project assigned by The Odin Project's curriculum. An app to manage, create and attend events. [Check out the assignment page for yourself](https://www.theodinproject.com/lessons/ruby-on-rails-private-events).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Specifications:
+  * Uses PostgreSQL as a database
