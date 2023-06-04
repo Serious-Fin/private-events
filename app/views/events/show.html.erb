@@ -2,3 +2,13 @@
 
 Date: <%= @event.date %> <br />
 Location: <%= @event.location %>
+
+<hr>
+<p>Attendees:</p>
+<% @event.attendees.each do |attendee| %>
+  - <%= attendee.name %><br />
+<% end %>
+
+<hr>
+<%= button_to 'Enroll', event_attendees_path(event_id: @event.id) %> <br />
+TODO: exit (if user enrolled)

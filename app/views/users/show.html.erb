@@ -7,3 +7,9 @@
   </div>
   <hr>
 <% end %>
+
+<p>Attended events:</p>
+<% @user.attended_events.each do |event| %>
+  Date: <%= event.date %> | Location: <%= event.location %><br />
+  <hr>
+<% end %>
